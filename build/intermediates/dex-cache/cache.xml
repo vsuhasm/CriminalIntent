@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\AndroidStudioProj\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="E:\AndroidStudioProj\CriminalIntent\app\build\intermediates\pre-dexed\debug\classes-f34079e0538545eac54eba8bfe509dd751c1a6e3.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProj\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\jars\libs\internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="E:\AndroidStudioProj\CriminalIntent\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.0-abea124357755be9e50e253d8542ab3e147ca349.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProj\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="983e2f375504bc04def18e709c35192afe92e65f">
+        <dex dex="E:\AndroidStudioProj\CriminalIntent\app\build\intermediates\pre-dexed\debug\classes-c83b3d97131e42c1a730b041d10ede9c03329034.jar" />
+    </item>
+    <item
+        jar="C:\Users\VenkataSuhas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.0\support-annotations-22.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="281bc6c58ecb3644c23fbc5ee0452019f67b4d5d">
+        <dex dex="E:\AndroidStudioProj\CriminalIntent\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.0-7c09f87810b3e108871755e996124c0a99325cd4.jar" />
+    </item>
+
+</items>
