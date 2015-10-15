@@ -9,6 +9,13 @@
         <dex dex="E:\AndroidStudioProj\CriminalIntent\app\build\intermediates\pre-dexed\debug\classes-f34079e0538545eac54eba8bfe509dd751c1a6e3.jar" />
     </item>
     <item
+        jar="E:\AndroidStudioProj\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="80434c45861675a57d690fba5ca31c3d55c89489">
+        <dex dex="E:\AndroidStudioProj\CriminalIntent\app\build\intermediates\pre-dexed\debug\classes-1fafa114893a65318074e96b382bdc500b4fe1d3.jar" />
+    </item>
+    <item
         jar="E:\AndroidStudioProj\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\jars\libs\internal_impl-22.1.0.jar"
         jumboMode="false"
         revision="21.1.2"
