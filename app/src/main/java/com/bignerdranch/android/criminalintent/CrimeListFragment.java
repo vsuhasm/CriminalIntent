@@ -12,13 +12,13 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 
 import java.util.List;
-import java.util.UUID;
+
 
 public class CrimeListFragment extends Fragment {
     private RecyclerView mCrimeRecyclerView;
     private CrimeAdapter mAdapter;
-    private UUID mClickedUUID;
     private static final int REQUEST_CRIME = 1;
+    private int mCrimeClicked;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -27,6 +27,12 @@ public class CrimeListFragment extends Fragment {
         mCrimeRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         updateUI();
         return view;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        updateUI();
     }
 
     private void updateUI() {
@@ -38,7 +44,7 @@ public class CrimeListFragment extends Fragment {
         }
 
         else {
-            mAdapter.notifyDataSetChanged();
+            mAdapter.notifyItemChanged(mCrimeClicked);
         }
     }
 
@@ -65,16 +71,12 @@ public class CrimeListFragment extends Fragment {
 
         @Override
         public void onClick(View v) {
-            mClickedUUID = mCrime.getId();
-            Intent intent = CrimeActivity.newIntent(getActivity(), mClickedUUID);
-            startActivityForResult(intent, REQUEST_CRIME);
+            Intent intent = CrimeActivity.newIntent(getActivity(), mCrime.getId());
+            mCrimeClicked = getAdapterPosition();
+            startActivity(intent);
         }
 
-        public void onActivityResult(int requestCode, int resultCode, Intent data) {
-            if (requestCode == REQUEST_CRIME) {
-                mClickedUUID = UUID.fromString(data.getStringExtra("ID"));
-            }
-        }
+
     }
 
     private class CrimeAdapter extends RecyclerView.Adapter<CrimeHolder> {
@@ -102,10 +104,5 @@ public class CrimeListFragment extends Fragment {
         }
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        updateUI();
-    }
 
 }

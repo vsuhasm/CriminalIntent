@@ -80,15 +80,5 @@ public class CrimeFragment extends Fragment {
 
         return v;
     }
-    public void returnResult() {
-        Intent intent = new Intent();
-        intent.putExtra("ID", crimeId.toString());
-        getActivity().setResult(Activity.RESULT_OK, intent);
-    }
 
-    @Override
-    public void onStop() {
-        super.onStop();
-        returnResult();
-    }
 }
