@@ -1508,6 +1508,8 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020038;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020039;
         public static final int abc_textfield_search_material=0x7f02003a;
+        public static final int ic_menu_add=0x7f02003b;
+        public static final int ic_menu_delete=0x7f02003c;
     }
     public static final class id {
         public static final int action_bar=0x7f0c0040;
@@ -1562,6 +1564,9 @@ containing a value of this type.
         public static final int list_item_crime_date_text_view=0x7f0c005a;
         public static final int list_item_crime_solved_check_box=0x7f0c0058;
         public static final int list_item_crime_title_text_view=0x7f0c0059;
+        public static final int menu_item_delete_crime=0x7f0c005c;
+        public static final int menu_item_new_crime=0x7f0c005d;
+        public static final int menu_item_show_subtitle=0x7f0c005e;
         public static final int middle=0x7f0c0015;
         public static final int multiply=0x7f0c001e;
         public static final int never=0x7f0c0019;
@@ -1648,10 +1653,15 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f040024;
     }
     public static final class menu {
-        public static final int crime=0x7f0d0000;
+        public static final int crime=0x7f0e0000;
+        public static final int fragment_crime=0x7f0e0001;
+        public static final int fragment_crime_list=0x7f0e0002;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
+    }
+    public static final class plurals {
+        public static final int subtitle_plural=0x7f0d0000;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f060000;
@@ -1678,8 +1688,12 @@ containing a value of this type.
         public static final int crime_title_hint=0x7f060015;
         public static final int crime_title_label=0x7f060016;
         public static final int date_picker_title=0x7f060017;
-        public static final int hello_world=0x7f060018;
-        public static final int time_picker_title=0x7f060019;
+        public static final int delete_crime=0x7f060018;
+        public static final int hello_world=0x7f060019;
+        public static final int hide_subtitle=0x7f06001a;
+        public static final int new_crime=0x7f06001b;
+        public static final int show_subtitle=0x7f06001c;
+        public static final int time_picker_title=0x7f06001d;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08006b;

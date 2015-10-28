@@ -403,6 +403,8 @@ int drawable abc_textfield_default_mtrl_alpha 0x7f020037
 int drawable abc_textfield_search_activated_mtrl_alpha 0x7f020038
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020039
 int drawable abc_textfield_search_material 0x7f02003a
+int drawable ic_menu_add 0x7f02003b
+int drawable ic_menu_delete 0x7f02003c
 int id action_bar 0x7f0c0040
 int id action_bar_activity_content 0x7f0c0000
 int id action_bar_container 0x7f0c003f
@@ -455,6 +457,9 @@ int id list_item 0x7f0c002a
 int id list_item_crime_date_text_view 0x7f0c005a
 int id list_item_crime_solved_check_box 0x7f0c0058
 int id list_item_crime_title_text_view 0x7f0c0059
+int id menu_item_delete_crime 0x7f0c005c
+int id menu_item_new_crime 0x7f0c005d
+int id menu_item_show_subtitle 0x7f0c005e
 int id middle 0x7f0c0015
 int id multiply 0x7f0c001e
 int id never 0x7f0c0019
@@ -535,8 +540,11 @@ int layout select_dialog_item_material 0x7f040021
 int layout select_dialog_multichoice_material 0x7f040022
 int layout select_dialog_singlechoice_material 0x7f040023
 int layout support_simple_spinner_dropdown_item 0x7f040024
-int menu crime 0x7f0d0000
+int menu crime 0x7f0e0000
+int menu fragment_crime 0x7f0e0001
+int menu fragment_crime_list 0x7f0e0002
 int mipmap ic_launcher 0x7f030000
+int plurals subtitle_plural 0x7f0d0000
 int string abc_action_bar_home_description 0x7f060000
 int string abc_action_bar_home_description_format 0x7f06000d
 int string abc_action_bar_home_subtitle_description_format 0x7f06000e
@@ -561,8 +569,12 @@ int string crime_solved_label 0x7f060014
 int string crime_title_hint 0x7f060015
 int string crime_title_label 0x7f060016
 int string date_picker_title 0x7f060017
-int string hello_world 0x7f060018
-int string time_picker_title 0x7f060019
+int string delete_crime 0x7f060018
+int string hello_world 0x7f060019
+int string hide_subtitle 0x7f06001a
+int string new_crime 0x7f06001b
+int string show_subtitle 0x7f06001c
+int string time_picker_title 0x7f06001d
 int style AlertDialog_AppCompat 0x7f08006b
 int style AlertDialog_AppCompat_Light 0x7f08006c
 int style Animation_AppCompat_Dialog 0x7f08006d
